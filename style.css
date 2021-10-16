@@ -29,7 +29,7 @@
 .navbar .max-width {
     display: flex;
     align-items: center;
-    justify-content: space-between
+    justify-content: space-between;
 }
 
 .navbar .logo a {
@@ -113,7 +113,7 @@ section {
     font-weight: 500;
     margin-bottom: 60px;
     padding-bottom: 20px;
-    font-family: 'Ubuntu', sans-serif';
+    font-family: 'Ubuntu', sans-serif;
 }
 
 .about .title::before {
@@ -178,6 +178,31 @@ section {
 
 .about .about-me .column-right a:hover {
     background-color: black;
+}
+
+/* Portfolio section styling */
+.Portfolio {
+    font-family: 'Poppins', sans-serif;
+}
+
+.Portfolio .max-width {
+    max-width: 100%;
+}
+
+.card .box .text span {
+    font-size: 20px;
+    font-weight: 500;
+    font-family: 'Ubuntu', sans-serif;
+}
+
+.Portfolio .title {
+    position: relative;
+    text-align: left;
+    font-size: 60px;
+    font-weight: 500;
+    margin-bottom: 60px;
+    padding-bottom: 20px;
+    font-family: 'Ubuntu', sans-serif;
 }
 
 /* responsive media query */
